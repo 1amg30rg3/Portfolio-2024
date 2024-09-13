@@ -1,0 +1,124 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CLRcV024.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-CtPac0uu.css"
+    ],
+    "assets": [
+      "assets/me-DMBnHH-5.webp",
+      "assets/designer-CwzsDT1a.webp",
+      "assets/front-BnZhI0tK.webp",
+      "assets/back-C3I06t6-.webp",
+      "assets/arrow-B_PAYSIW.svg",
+      "assets/Montserrat-Black-Dt_sRK0l.eot",
+      "assets/Montserrat-Black-BJc7uxhd.woff",
+      "assets/Montserrat-Black-C-5TBK4B.ttf",
+      "assets/Montserrat-Black-D8BybQqG.svg",
+      "assets/Montserrat-Bold-DY05HSpc.eot",
+      "assets/Montserrat-Bold-BqWFl5bd.woff",
+      "assets/Montserrat-Bold-Bmnvih-w.ttf",
+      "assets/Montserrat-Bold-PtYa-VIu.svg",
+      "assets/Montserrat-Regular-4b8QirV_.eot",
+      "assets/Montserrat-Regular-CTmnJ3z-.woff",
+      "assets/Montserrat-Regular-BTubnhLe.ttf",
+      "assets/Montserrat-Regular-BTv-ZAuf.svg",
+      "assets/Montserrat-Light-CEZ8GF1K.eot",
+      "assets/Montserrat-Light-CL5M17L5.woff",
+      "assets/Montserrat-Light-DGN5w54f.ttf",
+      "assets/Montserrat-Light-D0JoiBCz.svg"
+    ]
+  },
+  "resources/js/assets/css/fonts/Montserrat-Black.eot": {
+    "file": "assets/Montserrat-Black-Dt_sRK0l.eot",
+    "src": "resources/js/assets/css/fonts/Montserrat-Black.eot"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Black.svg": {
+    "file": "assets/Montserrat-Black-D8BybQqG.svg",
+    "src": "resources/js/assets/css/fonts/Montserrat-Black.svg"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Black.ttf": {
+    "file": "assets/Montserrat-Black-C-5TBK4B.ttf",
+    "src": "resources/js/assets/css/fonts/Montserrat-Black.ttf"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Black.woff": {
+    "file": "assets/Montserrat-Black-BJc7uxhd.woff",
+    "src": "resources/js/assets/css/fonts/Montserrat-Black.woff"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Bold.eot": {
+    "file": "assets/Montserrat-Bold-DY05HSpc.eot",
+    "src": "resources/js/assets/css/fonts/Montserrat-Bold.eot"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Bold.svg": {
+    "file": "assets/Montserrat-Bold-PtYa-VIu.svg",
+    "src": "resources/js/assets/css/fonts/Montserrat-Bold.svg"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Bold.ttf": {
+    "file": "assets/Montserrat-Bold-Bmnvih-w.ttf",
+    "src": "resources/js/assets/css/fonts/Montserrat-Bold.ttf"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Bold.woff": {
+    "file": "assets/Montserrat-Bold-BqWFl5bd.woff",
+    "src": "resources/js/assets/css/fonts/Montserrat-Bold.woff"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Light.eot": {
+    "file": "assets/Montserrat-Light-CEZ8GF1K.eot",
+    "src": "resources/js/assets/css/fonts/Montserrat-Light.eot"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Light.svg": {
+    "file": "assets/Montserrat-Light-D0JoiBCz.svg",
+    "src": "resources/js/assets/css/fonts/Montserrat-Light.svg"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Light.ttf": {
+    "file": "assets/Montserrat-Light-DGN5w54f.ttf",
+    "src": "resources/js/assets/css/fonts/Montserrat-Light.ttf"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Light.woff": {
+    "file": "assets/Montserrat-Light-CL5M17L5.woff",
+    "src": "resources/js/assets/css/fonts/Montserrat-Light.woff"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Regular.eot": {
+    "file": "assets/Montserrat-Regular-4b8QirV_.eot",
+    "src": "resources/js/assets/css/fonts/Montserrat-Regular.eot"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Regular.svg": {
+    "file": "assets/Montserrat-Regular-BTv-ZAuf.svg",
+    "src": "resources/js/assets/css/fonts/Montserrat-Regular.svg"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Regular.ttf": {
+    "file": "assets/Montserrat-Regular-BTubnhLe.ttf",
+    "src": "resources/js/assets/css/fonts/Montserrat-Regular.ttf"
+  },
+  "resources/js/assets/css/fonts/Montserrat-Regular.woff": {
+    "file": "assets/Montserrat-Regular-CTmnJ3z-.woff",
+    "src": "resources/js/assets/css/fonts/Montserrat-Regular.woff"
+  },
+  "resources/js/assets/img/arrow.svg": {
+    "file": "assets/arrow-B_PAYSIW.svg",
+    "src": "resources/js/assets/img/arrow.svg"
+  },
+  "resources/js/assets/img/back.webp": {
+    "file": "assets/back-C3I06t6-.webp",
+    "src": "resources/js/assets/img/back.webp"
+  },
+  "resources/js/assets/img/designer.webp": {
+    "file": "assets/designer-CwzsDT1a.webp",
+    "src": "resources/js/assets/img/designer.webp"
+  },
+  "resources/js/assets/img/front.webp": {
+    "file": "assets/front-BnZhI0tK.webp",
+    "src": "resources/js/assets/img/front.webp"
+  },
+  "resources/js/assets/img/me.webp": {
+    "file": "assets/me-DMBnHH-5.webp",
+    "src": "resources/js/assets/img/me.webp"
+  }
+}
