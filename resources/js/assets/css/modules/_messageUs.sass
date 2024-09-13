@@ -1,0 +1,236 @@
+.hire
+  position: relative
+  display: flex
+  width: 700px
+  max-width: 75%
+  height: 100%
+  flex-direction: column
+  justify-content: center
+  margin: 0 auto
+
+  @media (max-width: 1180px)
+    max-width: 100%
+
+  h2
+    text-align: center
+
+  .__message 
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 20px    
+    margin: 0 auto
+    margin-top: 20px
+    @media (max-width:525px)
+      display: block
+      width: 100%
+
+    .__message_input
+      display: block
+      
+
+
+    .__message_input:nth-child(3)
+      grid-column-start: 1
+      grid-column-end: 3
+      display: block
+      @media (max-width:525px)
+        grid-column-start: 1
+        grid-column-end: 2
+  
+  input[type="text"]
+    display: block
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    font-size: 16px
+    padding: 10px 
+    background: transparent
+    border: 1px solid $highlight
+    &:focus
+      outline: none
+
+    
+  input[type="email"]
+    display: block
+    font-size: 16px
+    padding: 10px 
+    background: transparent
+    border: 1px solid $highlight
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    &:focus
+      outline: none
+
+
+  label
+    position: relative
+    top: -31px
+    left: 10px
+    transition: top 0.3s
+
+  input:focus + label,
+  input.has-value + label
+    top: -62px
+    font-size: 14px
+
+
+  textarea
+    display: block
+    width: 100%
+    height: 100px
+    font-size: 16px
+    padding: 10px
+    background: transparent
+    border: 1px solid $highlight
+    resize: none
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    &:focus
+      outline: none
+    &+label
+      top: -80px
+    &:focus + label
+      top: -125px
+    &.has-value + label
+      top: -125px
+  
+
+  .myBtn
+    grid-template-columns: 1fr 40px
+    grid-column-start: 1
+    grid-column-end: 3
+    max-width: 300px
+    min-width: 200px
+    margin: 0 auto
+    display: block
+    outline: none
+    border: 0
+    color: $white
+    border: 2px solid $highlight
+    background: transparent
+    font-size: 15px
+    padding: 5px 0 
+    @media (max-width:400px)
+      width: 100%    
+      max-width: 100%
+
+    & svg
+      position: relative
+      top: 1.8px
+      left:5px
+      height: 14px
+      filter: drop-shadow(0 0 0.3px $white)
+      transition: left .2s
+    
+    &:hover
+      background: $highlight
+      & svg
+        left: 10px
+
+
+
+
+.__animate 
+  display: grid
+  align-items: center
+  justify-content: center
+  position: absolute
+  overflow: hidden
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  background: $black
+
+
+  
+.lds-roller
+
+  display: inline-block
+  position: relative
+  width: 80px
+  height: 80px
+.lds-roller div 
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite
+  transform-origin: 40px 40px
+
+.lds-roller div:after 
+  content: " "
+  display: block
+  position: absolute
+  width: 7px
+  height: 7px
+  border-radius: 50%
+  background: $highlight
+  margin: -4px 0 0 -4px
+
+.lds-roller div:nth-child(1) 
+  animation-delay: -0.036s
+
+.lds-roller div:nth-child(1):after 
+  top: 63px
+  left: 63px
+
+.lds-roller div:nth-child(2) 
+  animation-delay: -0.072s
+
+.lds-roller div:nth-child(2):after 
+  top: 68px
+  left: 56px
+
+.lds-roller div:nth-child(3) 
+  animation-delay: -0.108s
+
+.lds-roller div:nth-child(3):after 
+  top: 71px
+  left: 48px
+
+.lds-roller div:nth-child(4) 
+  animation-delay: -0.144s
+
+.lds-roller div:nth-child(4):after 
+  top: 72px
+  left: 40px
+
+.lds-roller div:nth-child(5) 
+  animation-delay: -0.18s
+
+.lds-roller div:nth-child(5):after 
+  top: 71px
+  left: 32px
+
+.lds-roller div:nth-child(6) 
+  animation-delay: -0.216s
+
+.lds-roller div:nth-child(6):after 
+  top: 68px
+  left: 24px
+
+.lds-roller div:nth-child(7) 
+  animation-delay: -0.252s
+
+.lds-roller div:nth-child(7):after 
+  top: 63px
+  left: 17px
+
+.lds-roller div:nth-child(8) 
+  animation-delay: -0.288s
+
+.lds-roller div:nth-child(8):after 
+  top: 56px
+  left: 12px
+
+@keyframes lds-roller 
+  0% 
+    transform: rotate(0deg)
+  
+  100% 
+    transform: rotate(360deg)
+  
+  
+        
+  
