@@ -1,4 +1,4 @@
-# Portfolio 2024 - George Gavasheli
+# Personal-Web-V1 - George Gavasheli
 
 A modern, interactive personal portfolio website showcasing design, frontend, and backend development expertise. Built with Laravel 11, Vue 3, and Inertia.js for a seamless single-page application experience.
 
@@ -51,7 +51,7 @@ A modern, interactive personal portfolio website showcasing design, frontend, an
 
 ```bash
 git clone <repository-url>
-cd Portfolio-2024
+cd Personal-Web-V1
 ```
 
 ### 2. Install PHP Dependencies
@@ -146,7 +146,7 @@ composer require laravel/sail --dev
 ## 📁 Project Structure
 
 ```
-Portfolio-2024/
+Personal-Web-V1/
 ├── app/                    # Laravel application code
 │   ├── Http/
 │   │   ├── Controllers/   # Application controllers
